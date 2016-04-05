@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="15B42" minimumToolsVersion="Xcode 7.0">
+    <entity name="Cache" representedClassName="AFCache" syncable="YES">
+        <attribute name="expireTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="isSingleObject" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="key" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="objectClassName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="objects" optional="YES" attributeType="Transformable" syncable="YES"/>
+    </entity>
+    <entity name="UserInfo" representedClassName="NWDUserInfo" syncable="YES">
+        <attribute name="headImage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nickName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="oid" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Cache" positionX="-54" positionY="9" width="128" height="120"/>
+        <element name="UserInfo" positionX="-54" positionY="-9" width="128" height="90"/>
+    </elements>
+</model>

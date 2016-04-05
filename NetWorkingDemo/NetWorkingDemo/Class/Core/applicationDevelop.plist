@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>weiboAppScheme</key>
+	<string>sina.55a354f667e58e03730024bd</string>
+	<key>weiXinAppScheme</key>
+	<string>wx629b7c1146cb072e</string>
+	<key>qqAppScheme</key>
+	<string>QQ41DBE332</string>
+	<key>QQZonAppKey</key>
+	<string>y0I8RCWXN5E52gqv</string>
+	<key>QQZonAppId</key>
+	<string>1104929586</string>
+	<key>WeiXinAppSecret</key>
+	<string>2db75349b45a0e601902c626b85e81e0</string>
+	<key>WeiXinAppID</key>
+	<string>wx629b7c1146cb072e</string>
+	<key>serverBaseURL2</key>
+	<string>http://192.168.0.103:8090</string>
+	<key>serverBaseURL</key>
+	<string>http://app.deerannie.com</string>
+	<key>appScheme</key>
+	<string>DeerAnnieDev</string>
+	<key>appStoreID</key>
+	<string>978628752</string>
+	<key>imageUrlSeparator</key>
+	<string>,</string>
+	<key>fileUrlSeparator</key>
+	<string>,</string>
+	<key>umengApplicaitionKey</key>
+	<string>55a354f667e58e03730024bd</string>
+</dict>
+</plist>

@@ -1,0 +1,50 @@
+//
+//  NWDGloabl.pch
+//  NetWorkingDemo
+//
+//  Created by zjc on 16/3/1.
+//  Copyright © 2016年 zjc. All rights reserved.
+//
+#ifdef __OBJC__
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
+
+// suppress warning
+#define SuppressPerformSelectorLeakWarning(code) \
+do { \
+_Pragma("clang diagnostic push") \
+_Pragma("clang diagnostic ignored \"-Warc-performSelector-leaks\"") \
+code; \
+_Pragma("clang diagnostic pop") \
+} while (0)
+
+#define SuppressUndeclaredSelectorWarning(code) \
+do { \
+_Pragma("clang diagnostic push") \
+_Pragma("clang diagnostic ignored \"-Wundeclared-selector\"") \
+code; \
+_Pragma("clang diagnostic pop") \
+} while (0)
+
+// Head file
+#import "NWDGlobal.h"
+
+// Lumberjack log level
+static const DDLogLevel ddLogLevel = DDLogLevelOff;
+// MagicalRecord log level
+#define AppMagicalRecordLogLevel MagicalRecordLoggingLevelOff
+// json parser warning
+#define LOG_JSON_PARSER_WARNING 0
+
+// Disable debug mode to print logs
+#define NSLog(...) {}
+
+#endif

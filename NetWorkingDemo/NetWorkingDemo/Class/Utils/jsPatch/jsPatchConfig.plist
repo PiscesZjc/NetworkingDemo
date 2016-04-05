@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>server</key>
+	<string>http://patch.weichengjiong.com</string>
+	<key>appId</key>
+	<string>5683d9e9270aa946dc000001</string>
+	<key>appSecret</key>
+	<string>28U6D221ae8zO5tX18E8NBy9xDXNSfSC</string>
+</dict>
+</plist>
